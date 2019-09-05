@@ -68,12 +68,27 @@ h1, h2, h3, h4, h5 {
 }
 
 button {
+	font-size:10px;
 	background:white;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
+
+button:hover {
+	background: black;
+	color: white;
+  }
+  
 .servicesContent{
 	border-top: 1px solid black;
 	border-bottom: 2px solid black;
-	margin-top: 76px;
+	margin-top: 50px;
 	padding-top: 39px;
 	padding-bottom: 39px;
 	display: flex;
@@ -81,45 +96,25 @@ button {
 	flex-wrap: wrap;
 	align-content: space-around;
 }
-.digitalDesignContent {
+
+.servicesContent div{
 	border: 1px solid black;
-	background: lightgray;
+	background: #F5F5F5;
 	padding: 2%;
 	width: 48%;
+}
+
+.digitalDesignContent {
 	margin-bottom: 30px;
 }
 .uxuiContent {
-	border: 1px solid black;
-	background: lightgray;
-	padding: 2%;
-	width: 48%;
 	margin-bottom: 30px;
 }
 .digitalMarketingContent {
-	border: 1px solid black;
-	background: lightgray;
-	padding: 2%;
-	width: 48%;
 	margin-bottom: 30px;
 }
 .webDevelopmentContent {
-	border: 1px solid black;
-	background: lightgray;
-	padding: 2%;
-	width: 48%;
 	margin-bottom: 30px;
-}
-.iosDevelopmentContent {
-	border: 1px solid black;
-	background: lightgray;
-	padding: 2%;
-	width: 48%;
-}
-.androidDevelopmentContent {
-	border: 1px solid black;
-	background: lightgray;
-	padding: 2%;
-	width: 48%;
 }
 
 .servicesHeading {
@@ -137,6 +132,7 @@ button {
 .lastSection {
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 .factsContent {
@@ -149,6 +145,8 @@ button {
 	display:flex;
 	flex-direction: column;
 	padding: 2%;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 .lastimage {
 	padding-top: 39px;
